@@ -10,7 +10,7 @@ node{
   stage('Slack Notification'){
   slackSend baseUrl: 'https://hooks.slack.com/services/', 
     channel: 'app-support-jenkins-demo', 
-    color: 'good', message: 'Welcome to jenkins slack!', 
+    color: 'good', message: 'MAA OO, Je viens chez toi quant on part au champ a manigotant, hahahaha!', 
     tokenCredentialId: 'slack-demo', 
     username: 'incoming-webhook'
   }
